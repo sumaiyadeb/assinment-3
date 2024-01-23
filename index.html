@@ -62,13 +62,37 @@
 
     </section>
       <!--background img section-->
-      <section>
-        <!--desiye ui use-->
-        <div>
-          <div class=" rounded-lg hero   min-h-screen" style="background-image: url(Images/1.png);"></div>
-         </div>
-         <!--kisu section baki acy-->
-  </section>
+      <div class="carousel w-full h-80">
+        <div id="slide1" class="carousel-item relative w-full ">
+          <img src="Images/1.png" class="w-full " />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle">❮</a> 
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="Images/1.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a> 
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="Images/1.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle">❮</a> 
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide4" class="carousel-item relative w-full">
+          <img src="Images/10.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn btn-circle">❮</a> 
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+      
   <div class="text-center ">
     <h1 class="text-2xl pt-10 font-extrabold ">Professional Hockeys Club</h1>
     <div>
@@ -140,18 +164,43 @@
       <!--background 3rd card  img-->
       <div class="card  bg-base-100 shadow-none image-full pt-5">
         <figure><img class="w-full" src="Images/4.png" alt="Shoes" /></figure>
-        <div class="card-body ">
-          <h2 class="card-title ">Junior Program</h2>
+        <div class="card-body h-20  ">
+          <h2 class="card-title  ">Junior Program</h2>
           <p>The Junior Professional Associate (JPA) program is a unique opportunity <br> to gain entry-level professional experience </p>
           <div class="card-actions justify-start pt-5 ">
             <button class="btn btn-error">Register Now!</button>
           </div>
         </div>
       </div>
-      
-      
+      <!--Our New Products-->
+      <section>
+        <div class="text-center  pt-10">
+          <h3 class="text-2xl font-extrabold">Our New Products</h3>
+          <p class="pt-5">Planning the introduction of new products in order to make a strong, positive <br>
+           first impression is important to profitability.</p>
+      </div>
     </section>
-   </header>
-    <main></main>
+    </header>
+    <main>
+      <!--card section start-->
+      <section>
+        <div>
+          <div class="card card-side bg-base-100 shadow-xl">
+            <figure><img src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg" alt="Movie"/></figure>
+            <div class="card-body">
+              <h2 class="card-title">New movie is released!</h2>
+              <p>Click the button to watch on Jetflix app.</p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-primary">Watch</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </section>
+
+
+    </main>
   </body>
 </html>
